@@ -72,16 +72,16 @@ python main.py
 
 ## Screenshots
 - Click on a node to spawn a robot.
-![Screenshot 2025-03-29 153555](https://github.com/user-attachments/assets/20fa48c0-1080-4f35-aed0-3fa148686ce4)
+    - ![Screenshot 2025-03-29 153555](https://github.com/user-attachments/assets/20fa48c0-1080-4f35-aed0-3fa148686ce4)
 
 - Click on an existing robot to select it and assign the robot to move to particular destination. On reaching destination pop window is displayed.
-![Screenshot 2025-03-29 153624](https://github.com/user-attachments/assets/c1d99e30-bdf9-4d35-86a6-44df2fd1f3dd)
+    - ![Screenshot 2025-03-29 153624](https://github.com/user-attachments/assets/c1d99e30-bdf9-4d35-86a6-44df2fd1f3dd)
 
 - The robot will follow the shortest path and wait if there is blockage of some other robots inbetween and dynamically reroute if necessary.
-![Screenshot 2025-03-29 153641](https://github.com/user-attachments/assets/866d8577-8199-43df-b8c1-4f88f085ccd0)
+    - ![Screenshot 2025-03-29 153641](https://github.com/user-attachments/assets/866d8577-8199-43df-b8c1-4f88f085ccd0)
 
 - The dynamic movements of robots are written to fleet_logs.txt file.
-![Screenshot 2025-03-29 153809](https://github.com/user-attachments/assets/16f4883d-e039-4a2b-bf2c-71f23c21b480)
+    - ![Screenshot 2025-03-29 153809](https://github.com/user-attachments/assets/16f4883d-e039-4a2b-bf2c-71f23c21b480)
 
     
     
