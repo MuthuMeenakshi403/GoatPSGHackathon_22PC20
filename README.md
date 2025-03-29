@@ -1,21 +1,23 @@
 
 # Fleet Management System 
 
-The Fleet Management System is a graphical user interface (GUI) application built using Python and Tkinter. It allows users to visualize and manage a fleet of autonomous robots moving within a network graph. The robots navigate between nodes, avoiding obstacles and recalculating paths dynamically.
+The Fleet Management System is a Tkinter-based GUI application for managing a fleet of robots in a networked environment. The application uses NetworkX for graph representation and Matplotlib for visualization. Robots can be spawned, assigned tasks, and will navigate to their destinations using the shortest available paths while avoiding blockages.
 
 ## Features
 
-- Graph Visualization: Displays a network graph using NetworkX and Matplotlib.
-- Robot Management: Allows spawning, selecting, and removing robots.
-- Task Assignment: Assigns movement tasks to robots using shortest-path calculations.
-- Dynamic Re-routing: Automatically recalculates paths to avoid congestion.
+- Graph Visualization: Displays the network of nodes and edges where robots operate.
+- Robot Spawning: Robots can be added to any node in the network.
+- Task Assignment: Assign tasks to robots to move from one node to another.
+- Path Planning: Uses Dijkstra's algorithm to compute the shortest path.
+- Obstacle Handling: Robots wait or re-route in case of blockages.
+- Logging System: Logs robot movements and events in a file.
 
 ## Installation
 
 To run this project, ensure you have the following dependencies installed:
 
 ```bash
-pip install tkinter networkx matplotlib
+pip install networkx matplotlib
 ```
 
 ## Run Locally
@@ -26,13 +28,13 @@ Clone the project
 git clone https://github.com/MuthuMeenakshi403/GoatPSGHackathon_22PC20.git
 ```
 
-Go to the project directory
+Navigate to the project directory
 
 ```bash
 cd fleet_management_system
 ```
 
-Go to the src directory
+Navigate to the src directory
 
 ```bash
 cd src
@@ -44,17 +46,29 @@ Now Run
 python main.py
 ```
 
-## Usage
+## How it works
 
-- Click on a node to spawn a robot.
+- Graph Loading:
+    - The graph is loaded from a JSON file (nav_graph_1.json).
+    - Nodes represent locations, and edges represent paths.
+    - Positions are determined using nx.spring_layout().
 
-- Click on an existing robot to select it.
+- Robot Spawning:
+    - Click on a node to spawn a robot at that location.
+    - The robot gets a unique ID (e.g., Robot 1).
 
-- Click on another node to assign the robot to move there.
+- Task Assignment:
+    - Click on an existing robot to select it.
+    - Click on another node to assign the robot a destination.
+    - The system computes the shortest path and animates movement.
 
-- The robot will follow the shortest path and dynamically reroute if necessary(in case of collision or blockage).
+- Movement Handling:
+    - Robots follow the shortest available path.
+    - If a path is blocked, an alternative route is chosen.
+    - If no alternate path exists, the robot waits.
 
-- Check logs for movement updates. In the file named fleet_logs.txt , it has all history of movements of the robot.
+- Logging:
+    - Events such as robot movements, rerouting, and task completion are logged in logs/fleet_logs.txt.
 
 ## Screenshots
 - Click on a node to spawn a robot.
