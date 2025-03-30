@@ -84,8 +84,9 @@ python main.py
     - ![Screenshot 2025-03-29 153809](https://github.com/user-attachments/assets/16f4883d-e039-4a2b-bf2c-71f23c21b480)
  
   ## Demo Video
-  - ![Video](https://github.com/MuthuMeenakshi403/GoatPSGHackathon_22PC20/blob/16bf2da2d2a786a37b522f594f620cc3b431e4ed/output_video.mp4)
-  - ![Video](https://github.com/MuthuMeenakshi403/GoatPSGHackathon_22PC20/blob/16bf2da2d2a786a37b522f594f620cc3b431e4ed/fleet_management_video%20(1).mp4)
+  - Click the link and download it to watch the demo. 
+  - ![Video1](https://github.com/MuthuMeenakshi403/GoatPSGHackathon_22PC20/blob/16bf2da2d2a786a37b522f594f620cc3b431e4ed/output_video.mp4)
+  - ![Video2](https://github.com/MuthuMeenakshi403/GoatPSGHackathon_22PC20/blob/16bf2da2d2a786a37b522f594f620cc3b431e4ed/fleet_management_video%20(1).mp4)
  
 
     
