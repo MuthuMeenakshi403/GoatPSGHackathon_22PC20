@@ -1,0 +1,47 @@
+Robot 1 spawned at node 6
+Robot 2 spawned at node 4
+Robot 3 spawned at node 1
+Robot 3 selected for task assignment
+Robot 3 assigned task to move from 1 to 2
+Robot 3 moved to 1
+Robot 3 moved to 3
+Robot 3 moved to 13
+Robot 3 moved to 2
+Robot 3 reached its destination 2
+Robot 1 selected for task assignment
+Robot 1 assigned task to move from 6 to 5
+Robot 1 moved to 6
+Robot 1 moved to 11
+Robot 1 moved to 5
+Robot 1 reached its destination 5
+Robot 3 selected for task assignment
+Robot 3 assigned task to move from 2 to 0
+Robot 3 moved to 2
+Robot 3 moved to 13
+Robot 3 moved to 3
+Robot 3 moved to 1
+Robot 3 moved to 10
+Robot 3 moved to 0
+Robot 3 reached its destination 0
+Robot 2 selected for task assignment
+Robot 2 assigned task to move from 4 to 1
+Robot 2 moved to 4
+Robot 2 waiting at 4 due to blockage
+Robot 2 waiting at 4 due to blockage
+Robot 3 selected for task assignment
+Robot 2 waiting at 4 due to blockage
+Robot 2 waiting at 4 due to blockage
+Robot 2 waiting at 4 due to blockage
+Robot 3 selected for task assignment
+Robot 2 waiting at 4 due to blockage
+Robot 3 assigned task to move from 0 to 3
+Robot 3 moved to 0
+Robot 2 waiting at 4 due to blockage
+Robot 3 moved to 10
+Robot 3 moved to 1
+Robot 2 moved to 0
+Robot 3 moved to 3
+Robot 2 moved to 10
+Robot 3 reached its destination 3
+Robot 2 moved to 1
+Robot 2 reached its destination 1
