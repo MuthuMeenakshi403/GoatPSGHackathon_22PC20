@@ -49,7 +49,7 @@ python main.py
 ## How it works
 
 - Graph Loading:
-    - The graph is loaded from a JSON file (nav_graph_1.json).
+    - The graph is loaded from a JSON file (e.g., nav_graph_1.json).
     - Nodes represent locations, and edges represent paths.
     - Positions are determined using nx.spring_layout().
 
@@ -82,6 +82,7 @@ python main.py
 
 - The dynamic movements of robots are written to fleet_logs.txt file.
     - ![Screenshot 2025-03-29 153809](https://github.com/user-attachments/assets/16f4883d-e039-4a2b-bf2c-71f23c21b480)
+ 
 
     
     
